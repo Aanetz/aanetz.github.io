@@ -1,21 +1,7 @@
-.img-responsive {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-.padded {
-	padding: 10px;
-}
-
-.img-smooth {
-	border-radius: 5%;
-}
-
 .typelogo {
-	font-family: 'Berkshire Swash', cursive;
+	font-family: 'Grand Hotel', cursive;
 }
 
-.content {
-	font-family: 'Encode Sans Condensed', sans-serif;
+.mycontent {
+	font-family: 'EB Garamond', serif;
 }
