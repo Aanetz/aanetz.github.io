@@ -1,25 +1,25 @@
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.pagepiling.min.css">
 	<title>Around the Quadrangle</title>
 </head>
 <body>
 
-	<div id="fullpage">
-		<div class="section fp-auto-height-responsive"><img src="img/quad-photos/Quad1.jpg" style="max-width:100%;"></div>
-		<div class="section fp-auto-height-responsive"><img src="img/quad-photos/Quad2.jpg" style="max-width:100%;"></div>
-		<div class="section fp-auto-height-responsive"><img src="img/quad-photos/Quad3.jpg" style="max-width:100%;"></div>
-		<div class="section fp-auto-height-responsive"><img src="img/quad-photos/Quad4.jpg" style="max-width:100%;"></div>
+	<div id="pagepiling">
+		<div class="section"><img src="img/quad-photos/Quad1.jpg"></div>
+		<div class="section"><img src="img/quad-photos/Quad2.jpg"></div>
+		<div class="section"><img src="img/quad-photos/Quad3.jpg"></div>
+		<div class="section"><img src="img/quad-photos/Quad4.jpg"></div>
 	</div>
 
 
-
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
+	<script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
-			$('#fullpage').fullpage({bigSectionsDestination: top});
+			$('#pagepiling').pagepiling({direction: 'horizontal'});
 		});
+
 	</script>
 </body>
 </html>
