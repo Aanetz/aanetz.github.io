@@ -1,13 +1,8 @@
-.typelogo {
-	font-family: 'Grand Hotel', cursive;
+.contents {background: url('../img/background-img.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.mycontent {
-	font-family: 'EB Garamond', serif;
-
-}
-
-.card {
-	margin: auto;
-	margin-bottom: 10px;
-}
+h1 {color: white}
